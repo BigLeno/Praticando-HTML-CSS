@@ -1,0 +1,36 @@
+Espectro-hexadecimal -> 0123456789ABCDEF
+
+RGB -> Red Green Blue
+
+# _ _ _ _ _ _
+
+0 -> Ausência
+
+F -> Máximo
+
+#000000 -> Black
+
+#FFFFFF -> White
+
+#FF0000 -> Red
+
+#00FF00 -> Green
+
+#0000FF -> Blue
+
+Espectro-RGB -> 0, 1, 2, ..., 255
+
+0 -> Ausência
+
+255 -> Máximo
+
+rgb(0, 0, 0) -> Black
+
+rgb(255, 255, 255) -> White
+
+rgb(255, 0, 0) -> Red
+
+rgb(0, 255, 0) -> Green
+
+rg(0, 0, 255) -> Blue
+
