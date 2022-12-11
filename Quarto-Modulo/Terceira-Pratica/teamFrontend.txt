@@ -1,0 +1,10 @@
+Time do frontend
+
+UX - User Experience
+    Usabilidade
+UI - User Interface
+    Design
+Desenvolvedor frontend
+    codificador
+
+UX + UI + Desenvolvedor
