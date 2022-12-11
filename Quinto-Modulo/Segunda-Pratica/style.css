@@ -1,0 +1,36 @@
+
+#banner {
+    width: 100%;
+}
+
+.main {
+    background: #CCCCCC;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#missao {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+p em strong {
+    color: #FF0000;
+}
+
+.items {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+
