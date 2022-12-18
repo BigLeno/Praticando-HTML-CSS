@@ -1,0 +1,57 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+} 
+
+nav a {
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.products {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.products li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productDescription {
+    font-size: 18px;
+}
+
+.productPrice {
+    font-size: 22px;
+    font-weight: bold;
+}
