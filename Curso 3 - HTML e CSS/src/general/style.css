@@ -55,11 +55,12 @@ nav a:hover {
     border-radius: 10px;
 }
 
-.products li:hover{
+.products li:hover {
     border-color: #C78C19;
+    cursor: pointer;
 }
 
-.product li:active{
+.product li:active {
     border-color: #088C19;
 }
 
