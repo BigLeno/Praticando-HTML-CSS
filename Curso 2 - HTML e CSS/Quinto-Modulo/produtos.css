@@ -1,0 +1,70 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+} 
+
+nav a {
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.products {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.products li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border-color: #000000;
+    border-width: 2px; Pode ser simplificado em uma só linha, como na linha 50
+    border-style: solid; */
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productDescription {
+    font-size: 18px;
+}
+
+.productPrice {
+    font-size: 22px;
+    font-weight: bold;
+    /* margin: 10px 0 0;
+    Pode ser simplificado, somente falando da forma que está
+    na linha 69
+    */
+    margin-top: 10px;
+}
