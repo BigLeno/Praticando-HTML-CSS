@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(180deg, cyan, purple);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.mainContent {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    max-width: 500px;
+}
+
+main h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.contentOne h2, .contentTwo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -0.2em;
+    margin-left: 0.5em;
+}
+
+.linkOne {
+    color: black;
+}
+
+.contentOne p {
+    margin-left: 3em;
+    font-style: italic;
+}
+
+.catImg {
+    display: flex;
+    justify-content: center;
+}
