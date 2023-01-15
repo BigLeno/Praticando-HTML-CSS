@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Improving my learning</p>
+  
+    <form action="" method="get" id="survey-form">
+      <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label" for="number">Age (optional)<input id="number" name="number" type="number" min="10" max="99" placeholder="Age"></label>
+      <label for="dropdown">Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select a current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full time Job</option>
+          <option value="3">Other</option>
+        </select>
+      </label>
+      <label> Would you recommend freeCodeCamp to a friend? 
+        <label><input name="radio-button" type="radio" class="inline" value="definitely" >Definitely</label>
+<label><input name="radio-button" type="radio" class="inline" value="maybe" >Maybe</label>
+        <label><input name="radio-button" type="radio" class="inline" value="not-sure" >Not sure</label>
+      </label>
+      <label>What would you like to see improved? (Check all that apply)
+        <label for="checkbox1"><input name="checkbox1" value="1" type="checkbox" class="inline" >Wiki</label>
+        <label for="checkbox2"><input name="checkbox2" value="2" type="checkbox" class="inline" >Challenges</label>
+        <label for="checkbox3"><input name="checkbox3" value="3" type="checkbox" class="inline" >Open Source Community</label>
+        <label for="checkbox4"><input name="checkbox4" value="4" type="checkbox" class="inline" >Forum</label>
+        <label for="checkbox5"><input name="checkbox5" value="5" type="checkbox" class="inline" >Data Visualization</label>
+      </label>Any comments or suggestions?
+      <label for="Additional comments"><textarea name="Additional comments" rows="3" cols="30" placheholder="Enter your comment here..."></textarea></label>
+      <input type="submit" value="Submit" />    
+      <!-- <button value="1" id="submit">Submit</button> -->
+    </form>
+  </body>
+</html>
