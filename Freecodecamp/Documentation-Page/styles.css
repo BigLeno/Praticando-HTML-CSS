@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma;
+  }
+    
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  
+  #main-doc {
+    color: #4d4e53;
+    line-height: 24px;
+    margin: 0px 0px 110px 310px;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: left;
+    font-size: 28.8px;
+    line-height: 43.2px
+  }
+  
+  section {
+    line-height: 24px;
+  }
+  
+  article {
+    font-size: 15.36px;
+    line-height: 23.04px;
+    margin: 15px;
+  }
+  
+  p {
+    font-size: 15.36px;
+    line-height: 23.04px;
+    margin: 15.36px 0px;
+  }
+  
+  ul {
+    font-size: 15.36px;
+    line-height: 23.04px;
+    margin: 15.36px 0px;
+    padding: 0px 0px 0px 40px;
+  }
+  
+  li {
+    font-size: 15.36px;
+    line-height: 23.04px;
+    margin: 15px 0px 0px 20px;
+    text-align: left;
+  }
+  
+  code {
+    background-color:#f7f7f7;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 12.48px;
+    line-height: 24.96px;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .nav-link {
+    line-height: 24px;
+    padding: 10px 30px;
+    text-align: left;
+  }
+  
+  #navbar li {
+    border-color: #4d4e53;
+    border-style: solid none none;
+    border-width: 1px 0px 0px;
+    color: #4d4e53;
+    line-height: 24px;
+    text-align: left;
+   
+  }
+  
+  #navbar ul {
+    margin: 16px 0;
+    list-style: none;
+    
+  }
+  
+  #navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50%;
+    height: 50%;
+  }
+  
+  #navbar header {
+    padding: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+  
+  #navbar li:hover {
+    cursor: pointer;
+    background-color: #4d4e53;
+    color: white;
+  }
+  
+  @media (min-width: 300px) {
+    #navbar {
+      position: unset;
+      top: unset;
+      left: unset;
+      width: unset;
+      height: unset;
+      
+      }
+      #navbar ul, #navbar li, #navbar header {
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+      }
+  }
