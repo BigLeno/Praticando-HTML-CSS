@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="navbar">
+      <div class="header">
+        <h1>Bigleno</h1>
+        <ul class="reference">
+          <li><a href="welcome-section">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="projects">Projects</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="welcome-section">
+        <h2>Olá, eu sou BigLeno</h2>
+        <article>
+          <p>Nesta prática, você poderá encontrar algumas de minhas atividades feitas durante todo este curso e, algumas outras mais.</p>
+          <p>Você também poderá entender, nelas, as formas que eu aproveitei, o que eu alterei, o que mantive, além de diversas outros itens que eu fiz durante toda a minha jornada de aprendizado.</p>
+        </article>
+      </section>
+      <section id="projects">
+        <div class="project-tile">
+          
+          <code>
+            function getProjects () {
+              <br>
+              if (document.getElementById("projects").value == true){
+                <br>
+                return <a target="_blank" href="https://github.com/BigLeno/Praticando-HTML-CSS">Projects</a>
+                <br>
+              } else { 
+                <br>
+                return ""
+                <br>
+              }
+              <br>
+              }
+          </code>
+        </div>
+      </section>
+      <section id="about">
+        <p>Sou um iniciante no mundo do Frontend, buscando me aperfeiçoar nesse mundo do desenvolvimento web.</p>
+        <article>
+          My Github profile:
+          <code>
+            function getProfile () {
+              <br>
+              if (document.getElementById("profile").value == true){
+                <br>
+                return <a id="profile-link" target="_blank" href="https://github.com/BigLeno">Profile</a>
+                <br>
+              } else { 
+                <br>
+                return ""
+                <br>
+              }
+              <br>
+              }
+          </code>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

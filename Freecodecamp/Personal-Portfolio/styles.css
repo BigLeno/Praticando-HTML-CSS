@@ -1,0 +1,84 @@
+:root {
+    --background-color1: #1b1b32;
+    --color-style: #f5f6f7; 
+    --code-background: #3b3b4f;
+    --header-background: #0a0a23;
+  }
+  
+  *, ::after, ::before {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    margin-bottom: 22rem;
+    padding-top: -3rem;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color1);
+    color: var(--color-style) ;
+    font-family: Tahoma;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-background);
+    display: block;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 2rem;
+  }
+  
+  .reference {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  main {
+    margin: 8rem;
+    padding: 3rem;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h2, p, code {
+    margin-bottom: 2rem;
+  }
+  
+  code {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--code-background) ;
+    border-radius: 1%;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--color-style);
+    padding: 1px;
+  }
+  
+  a:hover {
+    cursor: hover;
+    background-color: var(--header-background);
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 0.86rem;
+    }
+  }
